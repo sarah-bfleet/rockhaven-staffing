@@ -130,6 +130,11 @@ img {
     height: auto;
   }
 
+  .logo-img {
+    width: 200px;
+    height: 100px;
+  }
+
 .wrapper {
     max-width: 1200px;
     width: 90%; 
@@ -223,7 +228,7 @@ footer h2 {
      margin: 0 5px;
    }
 
-   footer i:hover {
+footer i:hover {
     color: #00a8e8;
   }
 
@@ -277,7 +282,7 @@ footer h2 {
 
   .logo-img {
     height: 100px;
-    width: 100px;
+    width: 150px;
   }
   
   nav ul{
