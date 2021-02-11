@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+   html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+  }
+  
+  /*
+   * Remove text-shadow in selection highlight:
+   * https://twitter.com/miketaylr/status/12228805301
+   *
+   * Vendor-prefixed and regular ::selection selectors cannot be combined:
+   * https://stackoverflow.com/a/16982510/7133471
+   *
+   * Customize the background color to match your design.
+   */
+  
+  ::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+  }
+  
+  ::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+  }
+  
+  /*
+   * A better looking default horizontal rule
+   */
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+  }
+  
+  /*
+   * Remove the gap between audio, canvas, iframes,
+   * images, videos and the bottom of their containers:
+   * https://github.com/h5bp/html5-boilerplate/issues/440
+   */
+  
+  audio,
+  canvas,
+  iframe,
+  img,
+  svg,
+  video {
+    vertical-align: middle;
+  }
+  
+  /*
+   * Remove default fieldset styles.
+   */
+  
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*
+   * Allow only vertical resizing of textareas.
+   */
+  
+  textarea {
+    resize: vertical;
+  }
+  
+    /* ==========================================================================
+     
+     Author's custom styles
+  
+     ========================================================================== */
+  
+     
+  /* General Styles */
+   
+html {
+      font-size: 16px;
+  }
+   
+body {
+      margin: 0 auto;
+      font-family: 'Open Sans', sans-serif;
+      color: #174e7c;
+  }
+
+h2 {
+  color: #ee3743;
+  font-weight: bold;
+}
+   
+ul, 
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+   
+a {
+    text-decoration: none;
+    color: #174e7c;
+  }
+   
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+.wrapper {
+    max-width: 1200px;
+    width: 90%; 
+    margin: 0 auto;
+    padding: 40px 0;
+   }
+
+header {
+     text-align: center;
+   }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+ }
+
+header .wrapper {
+  padding: 0;
+ }
+
+header img {
+       margin-bottom: 20px;
+   }
+
+nav {
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+nav a:hover, .contact a:hover {
+    color: #2376bc;
+    font-weight: bold;
+  }
+
+
+.hero-image {
+    height: 80vh;
+    background-image: url('img/older-couple.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.hero-text {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+
+.services {
+    background-color: #f7f9fb;
+    color: #174e7c;
+   }
+
+.other-list {
+     list-style-type: disc;
+     margin-left: 20px;
+   }
+
+.bg-color-footer {
+  background-color: #f7f9fb;
+  text-align: center;
+}
+    
+address {
+    font-style: normal;
+    color: #174e7c;
+   }
+
+address p {
+     margin: 5px 0 20px;
+   }
+
+footer h2 {
+     font-size: 16px;
+     margin: 25px 0 0;
+     font-weight: bold;
+   }
+
+.social ul {
+     display: flex;
+    justify-content: center;
+   }
+
+.social ul li {
+     margin: 0 5px;
+   }
+
+   footer i:hover {
+    color: #00a8e8;
+  }
+
+   /* 
+   #6893ca,
+   #bbc9e6 (lightest color)
+   #2376bc (darkest color)
+   #152930 (dark sweater)
+  
+   */
+
+   
+
+   /* ====================================
+  ======================================
+       Media Queries - TABLET 
+     =======================================
+     =================================== */
+  
+  @media only screen and (min-width: 768px) {
+    /* General styles */
+
+}
+
+
+/* ================================================================
+    DESKTOP MEDIA QUERY
+====================================================================*/
+
+@media only screen and (min-width: 1200px) {
+
+  .header {
+    justify-content: space-around;
+ }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p, li {
+    font-size: 18px;
+  }
+
+  .logo-img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  nav ul{
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 10px;
+    font-size: 18px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer h2 {
+    font-size: 20px;
+  }
+
+  .hero-image {
+    background-image: url('img/damir-bosnj.jpg');
+    background-position: top;
+  }
+
+  .hero-text {
+    margin-top: 300px;
+    background-color: #f7f9fb;
+    background: rgba(247, 249, 251, 0.7);
+    color: #174e7c;
+    border-radius: 4px;
+  }
+
+  .hero-text h1 {
+    margin: 0;
+    padding: 0 10px;
+    font-weight: bold;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .flex-col-1, .flex-col-2 {
+    width: 50%;
+  }
+ 
+  .flex-col-1 {
+    margin-right: 40px;
+  }
+  
+  .flex-item {
+    margin-top: 25px;
+  }
+
+  .flex li {
+    margin: 30px 0;
+  }
+    
+  .career-img {
+    height: 500px;
+    width: 600px;
+  }
+
+  .career-msg {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+  }
+
+  .career-msg p {
+    background-color: #174e7c;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+}
